@@ -3,7 +3,7 @@
  * @returns {Promise<Object>} A promise that resolves to an object containing the characters data.
  */
 
-import characters from 'app/data/characters.json'
+import characters from '/data/characters.json'
 import { NextResponse } from 'next/server'
 
 export async function GET() {

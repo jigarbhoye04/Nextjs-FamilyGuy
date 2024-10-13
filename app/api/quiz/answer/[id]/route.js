@@ -8,7 +8,7 @@
  * @returns {Promise<Object>} A promise that resolves to an object containing the correct answer and a randomly generated question ID, or an error response.
  */
 
-import questions from 'app/data/quiz.json'
+import questions from '/data/quiz.json'
 import { NextResponse } from 'next/server'
 
 export async function GET(req, { params }) {
