@@ -7,11 +7,11 @@ Renders a Next.js page component that displays detailed information about a char
 @returns {JSX.Element} The rendered page component.
 */
 
-import { Container } from '@/components'
+import { Container } from '/components'
 import Image from 'next/image'
-import { endpoint } from '@/utils/endpoint'
+import { endpoint } from '/utils/endpoint'
 
-import { getAllCharacters } from '@/lib/characters'
+import { getAllCharacters } from '/lib/characters'
 
 export const dynamicParams = false
 

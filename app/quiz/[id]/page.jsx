@@ -7,9 +7,9 @@ Renders a Next.js page component that displays a quiz question and its answer op
 @returns {JSX.Element} The rendered page component.
 */
 
-import { Container } from '@/components'
-import { Answer } from '@/components/Answer'
-import { endpoint } from '@/utils/endpoint'
+import { Container } from '/components'
+import { Answer } from '/components/Answer'
+import { endpoint } from '/utils/endpoint'
 
 
 async function getQuizQuestion(id) {
