@@ -8,8 +8,8 @@
  * @returns {Promise<Object>} A promise that resolves to an object containing the character and their quotes, or an error response.
  */
 
-import characters from '@/data/characters.json'
-import qoutes from '@/data/qoutes.json'
+import characters from 'app/data/characters.json'
+import qoutes from 'app/data/qoutes.json'
 import { NextResponse } from 'next/server'
 
 export async function GET(req, { params }) {

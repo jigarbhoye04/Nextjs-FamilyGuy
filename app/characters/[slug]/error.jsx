@@ -1,6 +1,6 @@
 'use client' // Error components must be Client Components
 
-import { Container } from '@/components'
+import { Container } from 'app/components'
 import { useEffect } from 'react'
 
 export default function Error(error, reset) {
